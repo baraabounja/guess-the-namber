@@ -1,0 +1,159 @@
+body{
+    background-color: #3b4a54;   
+}
+.page{
+    padding: 30px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.pheadtwo{
+    font-size: 15px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+.btnhead{
+    width: 110px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: none;
+    color: #3b4a54;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+.btnhead:hover{
+    cursor : pointer;
+    } 
+.btnOne:hover{
+     cursor : pointer;
+    }
+.karakter{
+    background-color: #3b4a54;
+    color: rgb(40, 40, 40); 
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+    margin-left: 80px;
+    height: 50px;
+    border: none;
+}
+.karakter:hover{
+    cursor:default;
+}
+.pScore{
+    margin-left: 10px;
+    color: rgb(40, 40, 40);
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #3b4a54;
+    font-family: 'Press Start 2P', cursive;
+
+}
+.pResult{
+    margin-left: 10px;
+    color: rgb(40, 40, 40);
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #3b4a54;
+    font-family: 'Press Start 2P', cursive;
+
+}
+.inputt{
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 30px;
+}
+.labl{
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    margin-left: 80px;
+    color: white;
+}
+.lablR{
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    margin-left: 80px;
+    color: white;
+}
+#in{
+    text-align: center;
+    margin: 10px;
+    width: 240px;
+    height: 120px;
+    color: white;
+    font-size: 30px;
+    background-color: #3b4a54;
+    font-family: 'Press Start 2P', cursive;
+    border: solid 5px white;
+}
+.sp{
+    font-size:40px ; 
+    font-weight:bold ;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.headnav{
+    margin-top:25px; 
+    display:flex ;
+    flex-direction: column;
+}
+.orta{
+    display: flex;
+}
+.sp-in{
+    display: flex;
+    justify-content: center;
+}
+.btnOne{
+    font-family: 'Press Start 2P', cursive;
+    width: 130px;
+    height: 50px;
+    margin: 30px;
+    margin-left: 60px;
+    font-size: 17px;
+    font-weight: bold;
+    color:#3b4a54;
+    background-color: white;
+    border: none;
+}
+.answer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 230px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 140px;
+    height: 80px;
+    color:#353d44;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: white;
+
+}
+.win{
+    display: none;
+}
+.lose{
+    display: none;
+}
+.divScore{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+
+}
+
+.scRe{
+    margin-top: 10px;
+    line-height: 60px;
+}
